@@ -3,6 +3,14 @@ import requests
 from bs4 import BeautifulSoup
 
 
+
+foos = {
+	'Num': [1,2,3,4],
+	'Funcs': [newyorker(),washpost_politics(),washpost_opinions(),washpost_sports()],
+	'Alias' : ["New Yorker", "Washington Post Politics", "Washington Post Opinions", "Washington Post Sports"]
+}
+
+
 def newyorker():
   article_list = []
 
